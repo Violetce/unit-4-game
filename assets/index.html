@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en=us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>All About Morgan Kennedy</title>
+
+    <!-- Added a link to css - regular, bootstrap, reset-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+</head>
+
+<body>
+    <header>
+
+        <!-- <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul> -->
+    </header>
+
+    <div class="container bg-info border">
+        <div class="row p-4 border-bottom text-white">
+            <h1 class="h1">Horses Collector!</h1>
+        </div>
+        <div class="row p-4 border-bottom text-white">
+            <div class="col-md-12">
+                <p>You will be given a random number of foals as a target to reach at the start of the game.</p><br>
+                <p>There are four horses below - they are all broodmares. By clicking on a horse, you will add a specific amount of foals to
+                    your total number of foals.</p><br>
+                <p>You win the game by matching your total number of foals to the target number of foals; you lose the game if your total
+                    number of foals go above the target number of foals.</p><br>
+                <p>The foals added for each broodmare is hidden from you until you click on it.</p><br>
+                <p>Each time when the game starts, the game will change the target number of foals.</p>
+            </div>
+        </div>
+        <div class="row p-4 border-bottom text-white">
+            <div class="col-md-4" id="goal">
+                <h4></h4>
+            </div>
+            <div class="col-md-8">
+                <p id="wins"></p>
+                <p id="losses"></p>
+            </div>
+        </div>
+        <div class="row p-4 border-bottom text-white">
+            <div class="col" id="image-1">
+                <img src="images/10-07-large-1024x683.jpg" class="img-fluid border imageS">
+            </div>
+            <div class="col" id="image-2">
+                <img src="images/6-05-large-1024x683.jpg" class="img-fluid border imageS">
+            </div>
+            <div class="col" id="image-3">
+                <img src="images/14-06-large-1024x683.jpg" class="img-fluid border imageS">
+            </div>
+            <div class="col" id="image-4">
+                <img src="images/3-06-large-1024x683.jpg" class="img-fluid border imageS">
+            </div>
+        </div>
+        <div class="row p-4 border-bottom text-white">
+            <div class="col-md-12">
+                <h4>Your Total Score:</h4>
+            </div>
+        </div>
+        <div class="row p-4 border-bottom text-white">
+            <div class="col-md-12">
+                <p id="score"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="javascript/game.js"></script>
+
+</body>
+
+</html>
